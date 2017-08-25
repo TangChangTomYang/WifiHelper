@@ -1,0 +1,16 @@
+PODS:
+  - WifiHelper (0.1.0)
+
+DEPENDENCIES:
+  - WifiHelper (from `../`)
+
+EXTERNAL SOURCES:
+  WifiHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WifiHelper: 0eeadf5af6fdc05b2ddbefad8c12e1e2cbb23014
+
+PODFILE CHECKSUM: 36afc7e80fab630eaba2eaccc408a8e191bec874
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,22 @@
+{
+  "name": "WifiHelper",
+  "version": "0.1.0",
+  "summary": "A short description of WifiHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TangchangTomYang/WifiHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TangchangTomYang": "690852195@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/TangchangTomYang/WifiHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WifiHelper/Classes/**/*"
+}

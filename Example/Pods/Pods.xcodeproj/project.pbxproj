@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEA02FFE69CCB477088482FE69222B9 /* Pods-WifiHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 324E8F1BC02114652AF5C39F357775A4 /* Pods-WifiHelper_Example-dummy.m */; };
+		11F080446B33D68E51AC33D3D812B18A /* Pods-WifiHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF331D9BE6ECD0A6EEF990BF04D0223 /* Pods-WifiHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DEED2069733B905559DAA363095DF4B /* YRWifiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 797097DFD653FBC350B91710C653E5FB /* YRWifiHelper.m */; };
+		3BA2F91CBE90936E906F87925AE518FF /* Pods-WifiHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A46D920832F4D8F75F3DF71896CB5BC /* Pods-WifiHelper_Tests-dummy.m */; };
+		543F5AF8F93B08CBFE97C44DEB4C9EB8 /* Pods-WifiHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 956F683EB7BD1DA2600067D4545B224E /* Pods-WifiHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B23E5C041DB2EDA472F633C3A08A089 /* WifiHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EE8537571C36B43784996D4095D334 /* WifiHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C319305260211C956303E15B635D8AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7DE76CFD2BECB9D83EAB70CC9923E665 /* YRWifiHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A19C15536361B87B616BFB52F0E18FE5 /* YRWifiHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82ED064892FABE60CF69B116F160A43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D0974498999D1613CF54F472A53C7272 /* WifiHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 669C3B3BFEDE383BB5214C1851C90469 /* WifiHelper-dummy.m */; };
+		E324D14C2481CDED447EEFE8DF889AF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		683DCB619472F8B9824DD50B7D3F3DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16E5E25BF2CA703C45E6743874F1AC4;
+			remoteInfo = WifiHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01305B57110E35116A7F167F422F04C5 /* Pods_WifiHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WifiHelper_Example.framework; path = "Pods-WifiHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		020A4F7EFF9F550352441AE90B1E0105 /* Pods-WifiHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WifiHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		156A1DE803CD3C6C2714297250337C70 /* Pods-WifiHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WifiHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19FC8F28873BD5C4833D8F99A70E064F /* Pods-WifiHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WifiHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1A46D920832F4D8F75F3DF71896CB5BC /* Pods-WifiHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WifiHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		1FB758383282BBAB1CF6D913174010EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		324E8F1BC02114652AF5C39F357775A4 /* Pods-WifiHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WifiHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		3D0C25F1DA8E078FE815E7E21335FCC2 /* WifiHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WifiHelper-prefix.pch"; sourceTree = "<group>"; };
+		4559E0A5F5A072430D246487F39A2F3A /* Pods-WifiHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WifiHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AF331D9BE6ECD0A6EEF990BF04D0223 /* Pods-WifiHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WifiHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		52B5FDC87A97BE11EBAA97009C2119C5 /* Pods-WifiHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WifiHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64DB3BFFEC5F30192985C314E5D12170 /* Pods_WifiHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WifiHelper_Tests.framework; path = "Pods-WifiHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		669C3B3BFEDE383BB5214C1851C90469 /* WifiHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WifiHelper-dummy.m"; sourceTree = "<group>"; };
+		68DCAD1B474BEA0E6632AD5A7647D118 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C0315E1AF4E7C0FEFB755E5FEF424D /* Pods-WifiHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WifiHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		751FDD31924B65C16EFDBA337E1CC5D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797097DFD653FBC350B91710C653E5FB /* YRWifiHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YRWifiHelper.m; sourceTree = "<group>"; };
+		87D9943B7566FF475CB2027B4838CFE8 /* Pods-WifiHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WifiHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949D39F14A206110FDDC114BBE33097C /* Pods-WifiHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WifiHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		956F683EB7BD1DA2600067D4545B224E /* Pods-WifiHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WifiHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A19C15536361B87B616BFB52F0E18FE5 /* YRWifiHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YRWifiHelper.h; sourceTree = "<group>"; };
+		A272948A490EF1CADDEC665D2E4FB8B8 /* Pods-WifiHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WifiHelper_Tests-resources.sh"; sourceTree = "<group>"; };
+		A9A0B7DCE5C15D54CA1879224A2F792D /* WifiHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WifiHelper.modulemap; sourceTree = "<group>"; };
+		BBFF7952DA3C2FF97A30DF59A6BDC232 /* Pods-WifiHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WifiHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1393DD4AA7E3D8FEA46F74B6620ECDD /* Pods-WifiHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WifiHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C3DA5696C9FCF774DF452EA9D84BAE24 /* Pods-WifiHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WifiHelper_Example-resources.sh"; sourceTree = "<group>"; };
+		C6151392EAA3490B6FFE6CD922C53E0D /* Pods-WifiHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WifiHelper_Example.modulemap"; sourceTree = "<group>"; };
+		DCCA50891A2984E079180985BBF300B0 /* WifiHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WifiHelper.xcconfig; sourceTree = "<group>"; };
+		EB566A5A5D7DF7996EF28DAF0519CDA8 /* WifiHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WifiHelper.framework; path = WifiHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7DA0AA5C7240A7E14E8DCAD474F09E /* Pods-WifiHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WifiHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0EE8537571C36B43784996D4095D334 /* WifiHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WifiHelper-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCE59B47A571207409164A9D4871784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E324D14C2481CDED447EEFE8DF889AF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FD5172594A3A64BCC993852DDEAB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ED064892FABE60CF69B116F160A43D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DCFA71908CD3AD5C29B6D384358A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C319305260211C956303E15B635D8AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035E37E315533C169C11F366A8A94030 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC953DAF4F885E0FCD1CE7A5BD7C612 /* Pods-WifiHelper_Example */,
+				EDC0B503923D0222D26BD0ABE7A1E8B7 /* Pods-WifiHelper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C3D58A871A4578981990E016DC74FE8 /* WifiHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B9484570CCDE0C6525F515FEE3F2A6E1 /* Support Files */,
+				85B2384951F1700E977AD8B734FEC9EC /* WifiHelper */,
+			);
+			name = WifiHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4CC953DAF4F885E0FCD1CE7A5BD7C612 /* Pods-WifiHelper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1FB758383282BBAB1CF6D913174010EC /* Info.plist */,
+				C6151392EAA3490B6FFE6CD922C53E0D /* Pods-WifiHelper_Example.modulemap */,
+				156A1DE803CD3C6C2714297250337C70 /* Pods-WifiHelper_Example-acknowledgements.markdown */,
+				BBFF7952DA3C2FF97A30DF59A6BDC232 /* Pods-WifiHelper_Example-acknowledgements.plist */,
+				324E8F1BC02114652AF5C39F357775A4 /* Pods-WifiHelper_Example-dummy.m */,
+				C1393DD4AA7E3D8FEA46F74B6620ECDD /* Pods-WifiHelper_Example-frameworks.sh */,
+				C3DA5696C9FCF774DF452EA9D84BAE24 /* Pods-WifiHelper_Example-resources.sh */,
+				4AF331D9BE6ECD0A6EEF990BF04D0223 /* Pods-WifiHelper_Example-umbrella.h */,
+				19FC8F28873BD5C4833D8F99A70E064F /* Pods-WifiHelper_Example.debug.xcconfig */,
+				949D39F14A206110FDDC114BBE33097C /* Pods-WifiHelper_Example.release.xcconfig */,
+			);
+			name = "Pods-WifiHelper_Example";
+			path = "Target Support Files/Pods-WifiHelper_Example";
+			sourceTree = "<group>";
+		};
+		644D7D153206456212624250DAB98FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01305B57110E35116A7F167F422F04C5 /* Pods_WifiHelper_Example.framework */,
+				64DB3BFFEC5F30192985C314E5D12170 /* Pods_WifiHelper_Tests.framework */,
+				EB566A5A5D7DF7996EF28DAF0519CDA8 /* WifiHelper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD2F11275BBEE5E5EEFE6840145BBBC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A19C15536361B87B616BFB52F0E18FE5 /* YRWifiHelper.h */,
+				797097DFD653FBC350B91710C653E5FB /* YRWifiHelper.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A063D2196A823CC392FCB58ABB44625B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				644D7D153206456212624250DAB98FE8 /* Products */,
+				035E37E315533C169C11F366A8A94030 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85B2384951F1700E977AD8B734FEC9EC /* WifiHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6AD2F11275BBEE5E5EEFE6840145BBBC /* Classes */,
+			);
+			name = WifiHelper;
+			path = WifiHelper;
+			sourceTree = "<group>";
+		};
+		A063D2196A823CC392FCB58ABB44625B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D58A871A4578981990E016DC74FE8 /* WifiHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9484570CCDE0C6525F515FEE3F2A6E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68DCAD1B474BEA0E6632AD5A7647D118 /* Info.plist */,
+				A9A0B7DCE5C15D54CA1879224A2F792D /* WifiHelper.modulemap */,
+				DCCA50891A2984E079180985BBF300B0 /* WifiHelper.xcconfig */,
+				669C3B3BFEDE383BB5214C1851C90469 /* WifiHelper-dummy.m */,
+				3D0C25F1DA8E078FE815E7E21335FCC2 /* WifiHelper-prefix.pch */,
+				F0EE8537571C36B43784996D4095D334 /* WifiHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WifiHelper";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDC0B503923D0222D26BD0ABE7A1E8B7 /* Pods-WifiHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				751FDD31924B65C16EFDBA337E1CC5D1 /* Info.plist */,
+				87D9943B7566FF475CB2027B4838CFE8 /* Pods-WifiHelper_Tests.modulemap */,
+				4559E0A5F5A072430D246487F39A2F3A /* Pods-WifiHelper_Tests-acknowledgements.markdown */,
+				52B5FDC87A97BE11EBAA97009C2119C5 /* Pods-WifiHelper_Tests-acknowledgements.plist */,
+				1A46D920832F4D8F75F3DF71896CB5BC /* Pods-WifiHelper_Tests-dummy.m */,
+				69C0315E1AF4E7C0FEFB755E5FEF424D /* Pods-WifiHelper_Tests-frameworks.sh */,
+				A272948A490EF1CADDEC665D2E4FB8B8 /* Pods-WifiHelper_Tests-resources.sh */,
+				956F683EB7BD1DA2600067D4545B224E /* Pods-WifiHelper_Tests-umbrella.h */,
+				020A4F7EFF9F550352441AE90B1E0105 /* Pods-WifiHelper_Tests.debug.xcconfig */,
+				ED7DA0AA5C7240A7E14E8DCAD474F09E /* Pods-WifiHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-WifiHelper_Tests";
+			path = "Target Support Files/Pods-WifiHelper_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6637CAC9B29295C284D8023C255B6FBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B23E5C041DB2EDA472F633C3A08A089 /* WifiHelper-umbrella.h in Headers */,
+				7DE76CFD2BECB9D83EAB70CC9923E665 /* YRWifiHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAA070EFA3F4B3966B04219C237F1B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543F5AF8F93B08CBFE97C44DEB4C9EB8 /* Pods-WifiHelper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA90D5683CA7004848AC42E858E13079 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F080446B33D68E51AC33D3D812B18A /* Pods-WifiHelper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00CF3C08217948E7B3E6A73C24398532 /* Pods-WifiHelper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785990209BB37E71450600276F562794 /* Build configuration list for PBXNativeTarget "Pods-WifiHelper_Tests" */;
+			buildPhases = (
+				81E10D3713F6CE263B73E66D92A9DFD2 /* Sources */,
+				D6DCFA71908CD3AD5C29B6D384358A72 /* Frameworks */,
+				BFAA070EFA3F4B3966B04219C237F1B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WifiHelper_Tests";
+			productName = "Pods-WifiHelper_Tests";
+			productReference = 64DB3BFFEC5F30192985C314E5D12170 /* Pods_WifiHelper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B16E5E25BF2CA703C45E6743874F1AC4 /* WifiHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA550CCE9F21D2BA7D83D86BEB7BDCE /* Build configuration list for PBXNativeTarget "WifiHelper" */;
+			buildPhases = (
+				224916B3274EA842352F56E0E687591A /* Sources */,
+				D3FD5172594A3A64BCC993852DDEAB4C /* Frameworks */,
+				6637CAC9B29295C284D8023C255B6FBD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiHelper;
+			productName = WifiHelper;
+			productReference = EB566A5A5D7DF7996EF28DAF0519CDA8 /* WifiHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8FC4EECE0CE5A6F9E899581FFB39929 /* Pods-WifiHelper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F569DA32E09C4717BAD716D7C83F0239 /* Build configuration list for PBXNativeTarget "Pods-WifiHelper_Example" */;
+			buildPhases = (
+				B20BCA8600547D717ECA9DCCA4A1A795 /* Sources */,
+				3DCE59B47A571207409164A9D4871784 /* Frameworks */,
+				FA90D5683CA7004848AC42E858E13079 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA526C4C78ED4FFEACAD9FC1CA089852 /* PBXTargetDependency */,
+			);
+			name = "Pods-WifiHelper_Example";
+			productName = "Pods-WifiHelper_Example";
+			productReference = 01305B57110E35116A7F167F422F04C5 /* Pods_WifiHelper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 644D7D153206456212624250DAB98FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8FC4EECE0CE5A6F9E899581FFB39929 /* Pods-WifiHelper_Example */,
+				00CF3C08217948E7B3E6A73C24398532 /* Pods-WifiHelper_Tests */,
+				B16E5E25BF2CA703C45E6743874F1AC4 /* WifiHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224916B3274EA842352F56E0E687591A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0974498999D1613CF54F472A53C7272 /* WifiHelper-dummy.m in Sources */,
+				1DEED2069733B905559DAA363095DF4B /* YRWifiHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E10D3713F6CE263B73E66D92A9DFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA2F91CBE90936E906F87925AE518FF /* Pods-WifiHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BCA8600547D717ECA9DCCA4A1A795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEA02FFE69CCB477088482FE69222B9 /* Pods-WifiHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA526C4C78ED4FFEACAD9FC1CA089852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WifiHelper;
+			target = B16E5E25BF2CA703C45E6743874F1AC4 /* WifiHelper */;
+			targetProxy = 683DCB619472F8B9824DD50B7D3F3DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DB43FB27DA05011B790630E4D036C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949D39F14A206110FDDC114BBE33097C /* Pods-WifiHelper_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WifiHelper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WifiHelper_Example/Pods-WifiHelper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WifiHelper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		187480BF32E54F0216639411B28CD71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCA50891A2984E079180985BBF300B0 /* WifiHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WifiHelper/WifiHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WifiHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WifiHelper/WifiHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WifiHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		563863BA6A8DD3D8F428B35DCF0B4427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCA50891A2984E079180985BBF300B0 /* WifiHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WifiHelper/WifiHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WifiHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WifiHelper/WifiHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WifiHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BEA4FF5FD137CDC9FA23E7B6B41EDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020A4F7EFF9F550352441AE90B1E0105 /* Pods-WifiHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WifiHelper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WifiHelper_Tests/Pods-WifiHelper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WifiHelper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A152BF09B1A90FA256833B7D560E72DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FC8F28873BD5C4833D8F99A70E064F /* Pods-WifiHelper_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WifiHelper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WifiHelper_Example/Pods-WifiHelper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WifiHelper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1930D6A29230C104B71598A269FC4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7DA0AA5C7240A7E14E8DCAD474F09E /* Pods-WifiHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WifiHelper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WifiHelper_Tests/Pods-WifiHelper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WifiHelper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785990209BB37E71450600276F562794 /* Build configuration list for PBXNativeTarget "Pods-WifiHelper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEA4FF5FD137CDC9FA23E7B6B41EDF6 /* Debug */,
+				A1930D6A29230C104B71598A269FC4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA550CCE9F21D2BA7D83D86BEB7BDCE /* Build configuration list for PBXNativeTarget "WifiHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187480BF32E54F0216639411B28CD71F /* Debug */,
+				563863BA6A8DD3D8F428B35DCF0B4427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F569DA32E09C4717BAD716D7C83F0239 /* Build configuration list for PBXNativeTarget "Pods-WifiHelper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A152BF09B1A90FA256833B7D560E72DA /* Debug */,
+				0DB43FB27DA05011B790630E4D036C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

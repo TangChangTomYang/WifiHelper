@@ -7,6 +7,7 @@
 //
 
 #import "YRViewController.h"
+#import "YRWifiHelper.h"
 
 @interface YRViewController ()
 
@@ -20,10 +21,13 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    // 获取当前连接的 wifi 的IP 地址相关信息
+    [YRWifiHelper fetchCurrentConnectedWifi_IdAddressInfo];
+    
+    //获取当前 手机连接的WiFi 的SSID 相关信息
+    [YRWifiHelper fetchCurrentConnectedWifi_SSIDInfo];
+
 }
 
 @end
